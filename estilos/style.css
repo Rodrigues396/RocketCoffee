@@ -14,6 +14,7 @@
 body{
     height: 100vh;
     background-image: linear-gradient(to top, #291d44,#000);
+
 }
 main{
     background-color: #000000;
@@ -28,13 +29,16 @@ main{
 }
 nav{
     position: absolute;
-    top: 12%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     width: 420px;
     height: 50px;
     border-bottom: 2px solid #A8A8B3;
+}
+.logo{
+    background-color: aqua;
 }
 .hamburger{
     position: absolute;
