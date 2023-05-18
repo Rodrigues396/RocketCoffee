@@ -77,4 +77,51 @@ menu > ul > li > a{
 #itensMenu{
     display: none;
 }
+/*--------------------------*/
+p{
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: white;
+}
+.pegarCafe{
+    width: 160px;
+    height: 35px;
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 7px;
+    border: 2px solid #8257E5;
+    background: none;
+    
+}
+.pegarCafe > a{
+    color: white;
+    text-decoration: none;
+}
+.div-imagem{
+    width: 420px;
+
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.div-imagem > img{
+    width: 420px;
+}
