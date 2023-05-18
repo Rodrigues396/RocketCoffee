@@ -53,11 +53,13 @@ nav{
 menu{
     height: 520px;
     width: 420px;
+
     position: absolute;
     top: 54.8%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: black;
+    z-index: 1;
 }
 menu > ul > li{
     font-family: manrope;
