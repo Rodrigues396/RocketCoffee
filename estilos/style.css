@@ -2,14 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
 
-:root {
-    --backgrond: #000;
-    --text-color: #FFF;
-    --button: #8257E5;
-    --border: #29292E;
-    --border-menu-mobile: #A8A8B3;
-    --text-color-menu-mobile: #E1E1E6;
-  }
 *{
     padding: 0px;
     margin: 0px;
@@ -53,18 +45,21 @@ nav{
     left: 93%;
     transform: translate(-50%, -50%);
 }
-.menu{
+.hamburger > button{
+    /*border-style: none;*/
+    background-color: #000;
+}
+/*-------------------------------------*/
+menu{
     height: 520px;
     width: 420px;
     position: absolute;
     top: 54.8%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    color: #A8A8B3;
     background-color: black;
 }
-.menu > ul > li{
+menu > ul > li{
     font-family: manrope;
     font-weight: 400;
     height: 40px;
@@ -72,7 +67,14 @@ nav{
     list-style-type: none;
     border-bottom: 1px solid #A8A8B3;
 }
-.menu > ul > li:hover{
+menu > ul > li:hover{
     border-left: 10px solid #8257E5;
+}
+menu > ul > li > a{
+    color: #A8A8B3;
+    text-decoration: none;
+}
+#itensMenu{
+    display: none;
 }
 
