@@ -29,7 +29,7 @@ main{
 }
 nav{
     position: absolute;
-    top: 0%;
+    
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -38,6 +38,10 @@ nav{
     border-bottom: 2px solid #A8A8B3;
 }
 .logo{
+    position: absolute;
+    left: 5px;
+    height: 33px;
+    width: 171px;
     background-color: aqua;
 }
 .hamburger{
