@@ -57,7 +57,7 @@ menu{
     top: 54.8%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: black;
+    background: black;
 }
 menu > ul > li{
     font-family: manrope;
@@ -113,6 +113,25 @@ p{
     color: white;
     text-decoration: none;
 }
+.great{
+    width: 240px;
+    height: 80px;
+
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+}
+.great > p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 68px;
+    letter-spacing: -0.03em;
+}
 .div-imagem{
     width: 420px;
 
@@ -120,7 +139,6 @@ p{
     top: 82%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 .div-imagem > img{
     width: 420px;
