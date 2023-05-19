@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*@media screen and (min-width: 768px) and (max-width: 992px)*/
+
+@media screen and (max-height: 898px) and (max-width: 415px) and (min-height: 668px) and (min-width: 376px){
+    main{
+        height: 897px;
+        width: 414px;
+    }
+    .div-imagem{
+        top: 90%;
+    }
+    menu{
+        height: 809px;
+        width: 413px;
+    }
+}
