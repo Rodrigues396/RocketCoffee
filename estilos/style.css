@@ -6,9 +6,11 @@
     padding: 0px;
     margin: 0px;
 }
-body{
-    position: fixed;
-    background-image: linear-gradient(to top, #291d44,#000);
+body{/*
+    background-color: #000;
+    background-image: url(../assets/blur-mobile.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;*/
 }
 main{
     background-color: #000000;
@@ -26,7 +28,7 @@ main{
 nav{
     background-color: #000000;
     position: absolute;
-    top: 5%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 
