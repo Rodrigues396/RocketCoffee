@@ -140,8 +140,8 @@ p{
     letter-spacing: -0.03em;
 }
 .div-imagem{
-    background-color: darkred;
-    height: 157px;
+    background-color: aqua;
+    height: 187px;
     width: 375px;
 
     position: absolute;
@@ -150,8 +150,7 @@ p{
     transform: translate(-50%, -50%);
 }
 .div-imagem > img{
-    background-color: aqua;
-    width: 315px;
+    width: 375px;
     position: absolute;
     top: 50%;
     left: 50%;
