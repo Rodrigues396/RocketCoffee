@@ -8,8 +8,14 @@
         width: 414px;
     }
     .div-imagem{
-        background-color: rgb(139, 0, 0);
+        background-color: aquamarine;
         width: 414px;
-        top: 78%;
+        top: 80%;
+    }
+    menu{
+        width: 414px;
+        height: 590px;
+
+        top: 56%;
     }
 }

@@ -60,7 +60,7 @@ menu{
     width: 375px;
 
     position: absolute;
-    top: 54.8%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: black;
@@ -88,14 +88,14 @@ menu > ul > li > a{
 p{
     width: 300px;
     position: absolute;
-    top: 25%;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 17px;
     line-height: 37px;
     text-align: center;
     letter-spacing: 0.02em;
@@ -140,7 +140,6 @@ p{
     letter-spacing: -0.03em;
 }
 .div-imagem{
-    
     height: 187px;
     width: 375px;
 
