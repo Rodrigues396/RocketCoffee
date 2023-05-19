@@ -8,8 +8,8 @@
         width: 414px;
     }
     .div-imagem{
-        background-color: darkred;
+        background-color: rgba(139, 0, 0, 0.336);
         width: 414px;
-        top: 78%;
+        top: 80%;
     }
 }
