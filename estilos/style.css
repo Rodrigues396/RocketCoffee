@@ -6,16 +6,11 @@
     padding: 0px;
     margin: 0px;
 }
-body{/*
-    background-color: #000;
-    background-image: url(../assets/blur-mobile.png);
-    background-position: center bottom;
-    background-repeat: no-repeat;*/
-}
 main{
     background-color: #000000;
     width: 376px;
     height: 668px;
+    /*height: 668px;*/
     background-image: url(../assets/blur-mobile.png);
     background-position: bottom;
     background-repeat: no-repeat;
